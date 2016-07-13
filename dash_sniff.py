@@ -9,7 +9,7 @@ def bitcoin():
     print time.time()
     r = requests.get("https://www.bitstamp.net/api/ticker_hour/")
     data = json.loads(r.content)
-    os.system("say bitcoin price is" +data['last'])
+    os.system("say bitcoin price is" +data['last'][0:3])
     print data['last']
 
 def arp_display(pkt):

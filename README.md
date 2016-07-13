@@ -13,3 +13,4 @@ Push button
 ## TODO
 [ ] Fix: command runs twice per button push  
 [ ] Fix: `pcapy API` bug on macOS  
+[ ] Fix: bitcoin "spoken" price always rounds down
