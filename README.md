@@ -8,9 +8,10 @@ Linux: `$ sudo apt-get install python-scapy gnustep-gui-runtime` `$ pip install 
 macOS: `$ brew tap Homebrew/python` `$ brew install scapy` `$ sudo easy_install pcapy requests json`  
 `$ cd dash-btn`  
 `$ sudo python dash_sniff.py`  
-Push button  
+Push button, take note of `ARP Probe from unknown device:` MAC address  
+Change MAC address
 
 ## TODO
-[ ] Fix: command runs twice per button push  
-[ ] Fix: `pcapy API` bug on macOS  
-[ ] Fix: bitcoin "spoken" price always rounds down
+- [ ] Fix: command runs twice per button push  
+- [ ] Fix: `pcapy API` bug on macOS  
+- [ ] Fix: bitcoin "spoken" price always rounds down

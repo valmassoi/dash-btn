@@ -15,7 +15,7 @@ def bitcoin():
 def arp_display(pkt):
   if pkt[ARP].op == 1: #who-has (request)
     #if pkt[ARP].psrc == '0.0.0.0': # ARP Probe
-      if pkt[ARP].hwsrc == 'f0:27:2d:f0:0a:60': # Clorox
+      if pkt[ARP].hwsrc == 'f0:27:2d:f0:0a:60': # Clorox MAC ADDRESS
         print "Clorox Pushed: f0:27:2d:f0:0a:60"
         bitcoin()
       else:
